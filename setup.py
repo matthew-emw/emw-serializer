@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="emw_serializer",
-    version="0.0.1",
+    version="0.0.2",
     description="Simple serializer",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -18,7 +18,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=[],
+    packages=['emw_serializer'],
     include_package_data=True,
     install_requires=[],
     entry_points={
